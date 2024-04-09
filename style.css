@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Space Mono", monospace;
+    font-weight: 600;
+
+    font-style: normal;
+}
+body{
+    overflow: hidden;
+}
+.wrapper{ 
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+overflow: hidden;
+    margin-top: 50px;
+}
+.cointainer{
+    width: auto;
+    height: 500px;
+  
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 800px;
+ 
+   
+}
+.leftHeading{
+    font-size: 25px;
+    font-weight: bold;
+
+
+}
+.rightHeading{
+    display: flex;
+    /* width: 20%; */
+    gap: 10px;
+    padding-top: 5px;
+   
+}
+#bkg{
+     font-weight: bold;
+     font-size: 15px;
+}
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px; 
+   background-color: #fff;
+    border-radius: 10px;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+   
+   
+}
+.leftBar{
+    width: 40%;
+    display: flex;
+    
+    
+   
+}
+#serarchIcon{
+   
+ font-size: 25px;
+ padding-top: 16px;
+ padding-left: 10px;
+  color: dodgerblue;;
+
+
+}
+#btw{
+    position: absolute;
+    right: 390px;
+    top: 118px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(30, 108, 225);
+    color:#fff;
+    cursor: pointer;
+ width: 90px;
+
+}
+#btw:hover{
+    background-color: rgb(86, 138, 216);
+    color: #fff;
+    cursor: pointer;
+
+}
+#bar{
+   
+    padding: 10px;
+    height: 55px;
+    border: none;
+    outline: none;
+    background: transparent;   
+}
+
+
+#bar::placeholder {
+    color:grey;
+    font-size: 15px;
+}
+#RedirectToProfile{
+    color: dodgerblue;
+}
+
+
+
+#name{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+
+.card{
+    margin-top: 15px;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 800px;
+    opacity: 0;
+}
+.cardDisplay .card{
+        opacity: 1;
+    }
+       
+#userImage{
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+}
+.leftCard{
+    width: 35%;
+  height: 400px;
+}
+.userDetail{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: black;
+}
+.rightCard{
+    width: 75%;
+    padding: 5px;
+
+}
+.userBio{
+    display: flex;
+    height: auto;
+    margin-top: 10px;
+}
+.githubDetail{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #ece6e6;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+  margin-right: 30px;
+}
+.SocialDetail{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.Social{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+   
+}
+.Change{
+    display: flex;
+    gap: 10px;
+}
+#backGroundChanger{
+    cursor: pointer;
+}
+.backGroundChange{
+    background-color: #141d2f;
+    color:snow;
+    transition: linear all 0.4s;
+}
+.clear{
+    position: relative;
+    top: 15px;
+    right: 150px;
+    color:black;
+  cursor: pointer;
+}
+.ClearColor .clear{
+    color:red;
+}
+.DarkSearchMode .searchBar{
+    background-color: #1e2a47;
+}
+.DarkBarColor #bar::placeholder {
+    color:#fff;
+    font-size: 15px;
+}
+.BarTextColor #bar{
+    color: white;
+}
+.darkMode .card
+{
+    background-color: #1e2a47;
+}
+.darkModeGithubDetails .githubDetail{
+    background-color: #141d2f;
+}
+.Links{
+    color:rgb(59, 52, 52);
+}
+.DarkMode .Links{
+    color: whitesmoke;
+}

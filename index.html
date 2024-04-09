@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="cointainer">
+            <div class="heading">
+                <div class="leftHeading">DevDetective</div>
+                <div class="rightHeading">
+                    <div id="bkg">Light</div>
+                    <div><i class="fa-regular fa-sun" id="backGroundChanger"></i></div>
+                </div>
+            </div>
+            <div class="searchBar">
+                <div class="leftBar">
+                <!-- left -->
+                <div><i class="fa-solid fa-magnifying-glass" class="icon" id="serarchIcon"></i></div>
+                <div>
+                    <input type="text" size="80" id="bar"placeholder="Enter a Github username... " autocomplete="off" ></div>
+                </div>
+                <!-- Rightsearch -->
+                <div class="rightBar">
+                    <div class="clear"><i class="fa-solid fa-trash" class="icon" ></i></div>
+                    <button id="btw">Search</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="leftCard">
+                    <img src="" alt="" id="userImage">
+                </div>
+                <div class="rightCard">
+                    <div class="userDetail">
+                        <div id="name"></div>
+                        <div id="DateJoined">
+                        </div>
+                        
+                    </div>
+                    <div><a href="" id="RedirectToProfile"></a></div>
+                    <div class="userBio">
+                        <div class="bioDetails">
+                            
+                        </div>
+                    </div>
+                    <div class="githubDetail">
+                        <div>
+                            <div>Repos</div>
+                            <div id="repoDeatils"></div>
+                        </div>
+                        <div>
+                            <div>Followers</div>
+                            <div id="followersDeatils"></div>
+                        </div>
+                        <div>
+                            <div>Following</div>
+                            <div id="followingDetails"></div>
+                        </div>
+                       
+                    </div>
+                    <div class="userSocialDetails">
+                        <div class="SocialDetail">
+                            <div class="Social">
+                                <div><i class="fa-solid fa-location-dot"></i></div>
+                                <div id="location" class="Links"></div>
+                            </div>
+                            <div class="Social">
+                                <div class="Change">
+                                    <div>
+                                        <i class="fa-solid fa-link"></i>
+                                    </div>
+                                  <div><a href="" id="blogDetails" class="Links"></a></div>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                        <div class="SocialDetail">
+                            <div class="Social">
+                                <div><i class="fa-brands fa-x-twitter"></i></div>
+                                <div><a href="" id="UserTwiter" class="Links"></a></div>
+                            </div>
+                                <div class="Social">
+                                    <div><i class="fa-solid fa-city"></i></div>
+                                    <div>
+                                        <a href="https://www.propeers.in/" class="Links">@propeers-in</a></div>
+                                </div>
+                                
+
+                        
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
